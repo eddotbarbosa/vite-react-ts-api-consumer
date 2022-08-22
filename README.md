@@ -1,5 +1,5 @@
 # Vite React TS API Consumer
-A project made with typescript and postgresql to experiment some approaches.
+A project made with vite react-ts template to consume an api.
 
 ## Related Repositories
 [Typescript Postgresql API](https://github.com/eddotbarbosa/typescript-postgresql-api)
