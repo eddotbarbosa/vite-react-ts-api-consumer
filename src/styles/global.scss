@@ -1,0 +1,19 @@
+@import '../styles/theme.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: $white-one;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: $black-one;
+}
+
+a {
+  text-decoration: none;
+}

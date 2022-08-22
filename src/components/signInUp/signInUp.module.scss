@@ -1,0 +1,60 @@
+@import '../../styles/theme.module.scss';
+
+.sign-in-up-container {
+  width: 100%;
+  max-width: 480px;
+  border: 1px solid $gray-one;
+  border-radius: 8px;
+}
+
+.button-text-sign-in-up {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: $gray-two;
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  &:hover {
+    color: $black-one;
+  }
+
+  &.active {
+    color: $black-one;
+  }
+}
+
+.form-label {
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.form-field {
+  padding: 18px 18px;
+  font-weight: 700;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid $gray-one;
+
+  &:focus {
+    border: 1px solid $blue-one;
+    box-shadow: 0px 0px 3px 1px $blue-one;
+  }
+}
+
+.submit-button {
+  width: 100%;
+  height: 48px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background: $blue-one;
+  font-weight: 900;
+  color: $white-one;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $blue-two;
+  }
+}

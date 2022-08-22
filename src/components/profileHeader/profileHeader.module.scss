@@ -1,0 +1,89 @@
+@import '../../styles/theme.module.scss';
+
+.profile-header {
+  width: 100%;
+  max-width: 780px;
+}
+
+.profile-data {
+  border: 1px solid $gray-one;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.name-data {
+  font-weight: 900;
+}
+
+.username-data {
+  color: $gray-three;
+  font-weight: 700;
+}
+
+.profile-setting-box {
+  border: 1px solid $gray-one;
+  border-radius: 8px;
+}
+
+.setting-button {
+  border: none;
+  background: none;
+  font-weight: 900;
+  cursor: pointer;
+  color: $gray-three;
+
+  &:hover {
+    color: $blue-one;
+  }
+
+  &.hover-red {
+    &:hover {
+      color: $red-one;
+    }
+  }
+}
+
+.delete-account-text {
+  font-weight: 900;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: $gray-three;
+}
+
+.form-label {
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.form-field {
+  padding: 18px 18px;
+  font-weight: 700;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid $gray-one;
+
+  &:focus {
+    border: 1px solid $blue-one;
+    box-shadow: 0px 0px 3px 1px $blue-one;
+  }
+}
+
+.submit-button {
+  width: 100%;
+  height: 48px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background: $blue-one;
+  font-weight: 900;
+  color: $white-one;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $blue-two;
+  }
+}
