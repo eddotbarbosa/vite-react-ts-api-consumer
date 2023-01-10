@@ -6,8 +6,6 @@ A project made with vite react-ts template to consume an api.
 
 ![Project Preview](https://github.com/eddotbarbosa/vite-react-ts-api-consumer/blob/main/gitassets/project-preview.png?raw=true)
 
-## Getting Started
-
 ## Features
 * authentication
 * user crud
